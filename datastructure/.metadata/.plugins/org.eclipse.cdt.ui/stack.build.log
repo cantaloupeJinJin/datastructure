@@ -1,0 +1,13 @@
+11:06:38 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:80:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+11:06:39 Build Failed. 1 errors, 1 warnings. (took 726ms)
+

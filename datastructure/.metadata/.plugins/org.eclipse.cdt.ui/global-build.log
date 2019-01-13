@@ -1,0 +1,1173 @@
+10:19:15 **** Rebuild of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstack.o "..\\sqstack.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:78:11: warning: unused variable 'e' [-Wunused-variable]
+  ElemType e;
+           ^
+gcc -o stack.exe linkstack.o sqstack.o 
+sqstack.o: In function `initstack':
+F:\cprojects\stack\Debug/../sqstack.c:22: multiple definition of `initstack'
+linkstack.o:F:\cprojects\stack\Debug/../linkstack.c:17: first defined here
+sqstack.o: In function `getlen':
+F:\cprojects\stack\Debug/../sqstack.c:28: multiple definition of `getlen'
+linkstack.o:F:\cprojects\stack\Debug/../linkstack.c:30: first defined here
+sqstack.o: In function `gettop':
+F:\cprojects\stack\Debug/../sqstack.c:33: multiple definition of `gettop'
+linkstack.o:F:\cprojects\stack\Debug/../linkstack.c:24: first defined here
+sqstack.o: In function `push':
+F:\cprojects\stack\Debug/../sqstack.c:38: multiple definition of `push'
+linkstack.o:F:\cprojects\stack\Debug/../linkstack.c:42: first defined here
+sqstack.o: In function `pop':
+F:\cprojects\stack\Debug/../sqstack.c:48: multiple definition of `pop'
+linkstack.o:F:\cprojects\stack\Debug/../linkstack.c:52: first defined here
+sqstack.o: In function `emptystack':
+F:\cprojects\stack\Debug/../sqstack.c:54: multiple definition of `emptystack'
+linkstack.o:F:\cprojects\stack\Debug/../linkstack.c:62: first defined here
+sqstack.o: In function `list':
+F:\cprojects\stack\Debug/../sqstack.c:59: multiple definition of `list'
+linkstack.o:F:\cprojects\stack\Debug/../linkstack.c:67: first defined here
+collect2.exe: error: ld returned 1 exit status
+10:20:08 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstack.o "..\\sqstack.c" 
+gcc -o stack.exe linkstack.o sqstack.o 
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+10:24:38 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:78:11: warning: unused variable 'e' [-Wunused-variable]
+  ElemType e;
+           ^
+gcc -o stack.exe linkstack.o sqstack.o 
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+10:38:16 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:79:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+Info: Nothing to build for stack
+10:49:01 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:79:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:49:40 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:79:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+10:51:34 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:79:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:52:17 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:53:46 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:80:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:54:37 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:80:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+Info: Nothing to build for stack
+11:06:08 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:80:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:06:22 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:06:38 **** Incremental Build of configuration Debug for project stack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o linkstack.o "..\\linkstack.c" 
+..\linkstack.c: In function 'main':
+..\linkstack.c:80:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+gcc -o stack.exe linkstack.o sqstack.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file stack.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:18:40 **** Rebuild of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'concat':
+..\sqstring.c:83:12: error: incompatible types when assigning to type 'char' from type 'string {aka struct <anonymous>}'
+   s->ch[i] = s1[i];
+            ^
+..\sqstring.c: In function 'replace':
+..\sqstring.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+19:19:31 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+19:21:53 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c:158:7: warning: return type of 'main' is not 'int' [-Wmain]
+ void  main()
+       ^~~~
+gcc -o string.exe sqstring.o 
+19:22:16 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+19:25:42 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:5: error: incompatible types when assigning to type 'string {aka struct <anonymous>}' from type 'char *'
+  s1 = "test";
+     ^
+19:37:29 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:13: warning: multi-character character constant [-Wmultichar]
+  *(s1.ch) = 'test';
+             ^~~~~~
+..\sqstring.c:161:13: warning: overflow in implicit constant conversion [-Woverflow]
+..\sqstring.c:161:6: warning: 's1.ch' is used uninitialized in this function [-Wuninitialized]
+  *(s1.ch) = 'test';
+   ~~~^~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+19:42:01 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:6: warning: 's1.ch' is used uninitialized in this function [-Wuninitialized]
+  *(s1.ch) = 't';
+   ~~~^~~~
+gcc -o string.exe sqstring.o 
+19:42:25 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:6: warning: 's1.ch' is used uninitialized in this function [-Wuninitialized]
+  *(s1.ch) = 't';
+   ~~~^~~~
+gcc -o string.exe sqstring.o 
+19:42:45 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:6: warning: 's1.ch' is used uninitialized in this function [-Wuninitialized]
+  *(s1.ch) = 't';
+   ~~~^~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+19:44:08 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:8: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  s1.ch = 't';
+        ^
+gcc -o string.exe sqstring.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:44:30 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -o string.exe sqstring.o 
+19:49:31 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:10: warning: multi-character character constant [-Wmultichar]
+  char t= 'test';
+          ^~~~~~
+..\sqstring.c:161:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:52:23 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:10: warning: character constant too long for its type
+  char t= 'tes5t';
+          ^~~~~~~
+..\sqstring.c:161:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:52:40 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:10: warning: character constant too long for its type
+  char t= 'testtest';
+          ^~~~~~~~~~
+..\sqstring.c:161:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:53:30 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:161:10: warning: character constant too long for its type
+  char t= 'testtest';
+          ^~~~~~~~~~
+..\sqstring.c:161:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:57:31 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: character constant too long for its type
+  char t= 'testtest';
+          ^~~~~~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:57:44 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: character constant too long for its type
+  char t= 'testtestr';
+          ^~~~~~~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:57:57 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: multi-character character constant [-Wmultichar]
+  char t= 'test';
+          ^~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:58:22 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: multi-character character constant [-Wmultichar]
+  char t= 'test';
+          ^~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:58:28 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: character constant too long for its type
+  char t= 'testdddd';
+          ^~~~~~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+19:58:59 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: character constant too long for its type
+  char t= 'testdddd';
+          ^~~~~~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+..\sqstring.c:164:9: warning: unused variable 's' [-Wunused-variable]
+  string s,s1;
+         ^
+gcc -o string.exe sqstring.o 
+19:59:57 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: character constant too long for its type
+  char t= 'testtest';
+          ^~~~~~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+10:42:01 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: character constant too long for its type
+  char t= 'testtest';
+          ^~~~~~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+..\sqstring.c:165:7: warning: unused variable 't' [-Wunused-variable]
+  char t= 'testtest';
+       ^
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+10:49:22 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:10: warning: character constant too long for its type
+  char t= 'testtest';
+          ^~~~~~~~~~
+..\sqstring.c:165:10: warning: overflow in implicit constant conversion [-Woverflow]
+..\sqstring.c:165:7: warning: unused variable 't' [-Wunused-variable]
+  char t= 'testtest';
+       ^
+gcc -o string.exe sqstring.o 
+10:49:54 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:165:5: warning: character constant too long for its type
+  s= 'testtest';
+     ^~~~~~~~~~
+..\sqstring.c:165:3: error: incompatible types when assigning to type 'string {aka struct <anonymous>}' from type 'int'
+  s= 'testtest';
+   ^
+10:50:35 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+11:06:33 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:158:12: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char s2 = "test assign";
+            ^~~~~~~~~~~~~
+..\sqstring.c:160:13: warning: passing argument 2 of 'assign' from incompatible pointer type [-Wincompatible-pointer-types]
+  assign(&s1,&s2);
+             ^
+..\sqstring.c:45:6: note: expected 'string * {aka struct <anonymous> *}' but argument is of type 'char *'
+ void assign(string *s1,string *s2)
+      ^~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+11:07:42 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:158:12: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char s2 = "test assign";
+            ^~~~~~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+11:07:58 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:158:12: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char s2 = "testassign";
+            ^~~~~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+11:13:58 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:160:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string *s1,char *s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+11:14:52 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:160:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string *s1,char *s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+12:22:06 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:160:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string *s1,char *s2)
+      ^~~~~~~~~
+..\sqstring.c:161:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'string {aka struct <anonymous>}' [-Wformat=]
+   printf("%s",s1);
+            ^
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+12:28:15 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:167:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string *s1,char *s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+12:31:41 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:166:6: error: lvalue required as left operand of assignment
+  &s2 = "testassign";
+      ^
+12:31:46 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:166:6: error: lvalue required as left operand of assignment
+  &s2 = "testassign";
+      ^
+12:39:34 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:167:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string *s1,char *s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+12:40:04 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:167:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string *s1,char* s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+12:40:55 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:167:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+13:05:10 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c:164:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  int i;
+      ^
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+13:05:32 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+13:05:47 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c:169:13: error: incompatible type for argument 1 of 'length'
+  i = length(s1);
+             ^~
+..\sqstring.c:60:5: note: expected 'string * {aka struct <anonymous> *}' but argument is of type 'string {aka struct <anonymous>}'
+ int length(string * s)
+     ^~~~~~
+13:06:48 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+13:08:49 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+13:09:17 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+13:09:31 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:17: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+   strassign(&s1,&s2);
+                 ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+10:38:23 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:16: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+  strassign(&s1,&s2);
+                ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+10:42:13 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:167:6: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  *s2 = "hello";
+      ^
+..\sqstring.c:169:16: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+  strassign(&s1,&s2);
+                ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\sqstring.c: In function 'main':
+..\sqstring.c:167:2: warning: 's2' is used uninitialized in this function [-Wuninitialized]
+  *s2 = "hello";
+  ^~~
+gcc -o string.exe sqstring.o 
+e:/program files (x86)/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:42:45 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+Info: Nothing to build for string
+10:51:18 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:16: warning: passing argument 2 of 'strassign' from incompatible pointer type [-Wincompatible-pointer-types]
+  strassign(&s1,&s2);
+                ^
+..\sqstring.c:28:6: note: expected 'char *' but argument is of type 'char **'
+ void strassign(string * s1,char  * s2)
+      ^~~~~~~~~
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+10:51:35 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+Info: Nothing to build for string
+10:53:37 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+10:54:57 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'assign':
+..\sqstring.c:49:20: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s1->ch = (char *)realloc(s1->ch,i*sizeof(char));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o string.exe sqstring.o 
+11:01:13 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+gcc -o string.exe sqstring.o 
+11:03:10 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+gcc -o string.exe sqstring.o 
+11:05:20 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:172:21: error: lvalue required as unary '&' operand
+  printf("%d",length(&3));
+                     ^
+11:07:19 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+gcc -o string.exe sqstring.o 
+11:15:01 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:13: warning: passing argument 2 of 'concat' from incompatible pointer type [-Wincompatible-pointer-types]
+  concat(&s1,&s2,&s);
+             ^
+..\sqstring.c:67:6: note: expected 'string * {aka struct <anonymous> *}' but argument is of type 'char **'
+ void concat(string * s1,string * s2,string * s)
+      ^~~~~~
+..\sqstring.c:160:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:15:21 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:168:16: warning: passing argument 3 of 'concat' from incompatible pointer type [-Wincompatible-pointer-types]
+  concat(&s,&s1,&s2);
+                ^
+..\sqstring.c:67:6: note: expected 'string * {aka struct <anonymous> *}' but argument is of type 'char **'
+ void concat(string * s1,string * s2,string * s)
+      ^~~~~~
+..\sqstring.c:160:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:15:58 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:160:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:16:36 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:160:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:19:28 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:163:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:160:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:20:06 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:163:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:160:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:20:19 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:163:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:160:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:21:59 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:164:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:161:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:22:12 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:164:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:161:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:26:27 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:159:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:156:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+11:26:36 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:159:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:156:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+12:35:33 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:159:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:157:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:157:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:156:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+12:35:46 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:159:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:157:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:157:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:156:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+12:44:59 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'main':
+..\sqstring.c:159:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:157:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:157:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:156:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+12:54:01 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:153:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:151:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:151:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:150:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:19:34 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:153:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:151:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:151:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:150:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:19:57 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:153:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:151:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:151:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:150:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:20:09 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:152:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:150:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:150:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:149:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:20:28 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:152:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:150:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:150:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:149:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:22:37 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:152:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:150:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:150:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:149:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:23:55 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:152:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:150:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:150:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:149:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:24:17 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:153:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:151:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:151:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:150:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:38:22 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:177:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:175:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:175:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:174:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 
+14:52:19 **** Incremental Build of configuration Debug for project string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sqstring.o "..\\sqstring.c" 
+..\sqstring.c: In function 'replace':
+..\sqstring.c:116:8: warning: unused variable 'm' [-Wunused-variable]
+  int k,m;
+        ^
+..\sqstring.c: In function 'main':
+..\sqstring.c:194:8: warning: unused variable 'c1' [-Wunused-variable]
+  char *c1 = "world";
+        ^~
+..\sqstring.c:192:20: warning: unused variable 's4' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                    ^~
+..\sqstring.c:192:17: warning: unused variable 's3' [-Wunused-variable]
+  string s1,s2,s,s3,s4,t;
+                 ^~
+..\sqstring.c:191:6: warning: unused variable 'len' [-Wunused-variable]
+  int len = 0;
+      ^~~
+gcc -o string.exe sqstring.o 

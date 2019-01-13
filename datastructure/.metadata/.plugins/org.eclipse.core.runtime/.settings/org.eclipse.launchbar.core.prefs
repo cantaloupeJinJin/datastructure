@@ -1,0 +1,16 @@
+LaunchTargetManager/configs/stack\ Debug\ (2)=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/stack.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/string\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/string.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:stack Debug (1),org.eclipse.launchbar.core.descriptorType.default\:stack Debug (2),org.eclipse.launchbar.core.descriptorType.default\:stack Debug,org.eclipse.launchbar.core.descriptorType.default\:stack.exe,org.eclipse.launchbar.core.descriptorType.default\:string Debug,org.eclipse.launchbar.core.descriptorType.default\:string.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:stack\ Debug\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:stack\ Debug\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:stack\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:stack\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:stack.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:string\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:string.exe/activeLaunchMode=run
