@@ -1,9 +1,10 @@
 /*
+
  * sqstring.c
  *
  *  Created on: 2018年11月27日
  *      Author: Jinjin
- */
+
 #include<stdio.h>
 #include<malloc.h>
 #define INITSTRLEN 100
@@ -13,18 +14,18 @@ typedef struct
 	int length;
 	int strsize;
 }string;
-/*
+
  * 初始化操作，创建一个空串s
- */
+
 void initstring(string * s)
 {
 	s->ch = (char *)malloc(INITSTRLEN*sizeof(char));
 	s->length = 0;
 	s->strsize = INITSTRLEN;
 }
-/*
+
  * 串赋值操作（将字符串常量s2赋给字符串变量s1）
- */
+
 void strassign(string * s1,char  * s2)
 {
 	int i;
@@ -39,9 +40,9 @@ void strassign(string * s1,char  * s2)
 		s1->ch[i] = s2[i];
 	}
 }
-/*
+
  * 串复制操作（将字符串变量s2的值赋给字符串变量s1的值）
- */
+
 void assign(string * s1,string * s2)
 {
 	int i;
@@ -54,16 +55,16 @@ void assign(string * s1,string * s2)
 		s1->ch[i] = s2->ch[i];
 	}
 }
-/*
+
  * 求串长操作
- */
+
 int length(string *s)
 {
 	return s->length;
 }
-/*
+
  * 串连接操作（将字符串s1和s2连接后存到串s中）
- */
+
 void concat(string * s1,string * s2,string * s)
 {
 	int i;
@@ -79,9 +80,9 @@ void concat(string * s1,string * s2,string * s)
 		s->ch[i] = s2->ch[i-s1->length];
 	}
 }
-/*
+
  * 判串等操作（判断两个字符串s和t是否相等，包括长度和对应字符，若相等返回1，否则返回0）
- */
+
 int equal(string *s,string *t)
 {
 	int i;
@@ -91,9 +92,9 @@ int equal(string *s,string *t)
 	if(i<s->length||i<t->length)return 0;
 	else return 1;
 }
-/*
+
  * 取子串操作（在字符串s中，把从第i个字符开始的连续 j个字符存到字符串t中）
- */
+
 int substr(string *s,int i,int j,string *t)
 {
 	int k;
@@ -108,9 +109,9 @@ int substr(string *s,int i,int j,string *t)
 	t->length = j;
 	return 1;
 }
-/*
+
  * 串替换操作（把字符串s的第i个字符开始的j个连续字符用字符串t替换）
- */
+
 int replace(string *s,int i,int j,string *t)
 {
 	int k,m;
@@ -137,9 +138,9 @@ int replace(string *s,int i,int j,string *t)
 	return 1;
 }
 
-/*
+
  * 在字符串s 的第i个字符之前插入字符串t
- */
+
 int insert(string * s,int i,string *t)
 {
 	int j;
@@ -160,11 +161,11 @@ int insert(string * s,int i,string *t)
 	return 1;
 }
 
-/*
+
  * 删除操作，
  * 在字符串中，
  * 删除从第i个字符开始的连续j个字符
- * */
+ *
 int delete(string * s,int i,int j)
 {
 	int k;
@@ -185,6 +186,7 @@ void list(string * s)
 	}
 	printf("\n");
 }
+
 
 int  main()
 {
@@ -212,24 +214,4 @@ int  main()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
